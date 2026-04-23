@@ -1,0 +1,15 @@
+2026-04-20 08:12:33 ERROR Database connection timeout
+2026-04-20 08:12:35 INFO Retrying connection...
+2026-04-20 08:13:01 WARNING Disk usage above 80%
+2026-04-20 08:14:22 ERROR Failed to write to disk
+2026-04-20 09:00:00 INFO Server started
+2026-04-20 09:05:12 INFO Health check passed
+2026-04-20 09:30:45 WARNING High memory usage
+2026-04-20 10:00:00 ERROR Connection refused by remote host
+2026-04-20 10:01:15 ERROR Timeout waiting for response
+2026-04-20 10:02:30 ERROR Retry limit exceeded
+2026-04-20 10:05:00 INFO Service restarted
+2026-04-20 11:00:00 INFO All systems operational
+2026-04-20 14:30:00 WARNING Slow query detected
+2026-04-20 14:35:10 ERROR Deadlock detected in transactions
+2026-04-20 23:59:59 INFO Daily backup completed
