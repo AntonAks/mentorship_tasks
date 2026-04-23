@@ -66,9 +66,17 @@
 
 ## Запуск тестів локально
 
+### Встановлення uv
+
 ```bash
-pip install -e .
-pytest -v
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+### Запуск тестів
+
+```bash
+uv sync
+uv run pytest -v
 ```
 
 ## Структура
