@@ -1,4 +1,4 @@
-# 🐍 Python Junior Tasks
+# 🐍 Python Tasks
 
 Практичні задачі для прокачки навичок Python.
 
@@ -22,11 +22,13 @@
 2026-04-20 08:13:01 WARNING Disk usage above 80%
 ```
 
+Дані представлені через Pydantic модель `LogEntry` з полями `datetime`, `level`, `message`.
+
 Реалізуй функції:
 
-- `parse_log_line(line: str) -> dict` — парсить один рядок логу, повертає словник з ключами: `datetime`, `level`, `message`
-- `count_by_level(logs: list[dict]) -> dict` — рахує кількість логів кожного рівня
-- `most_error_hour(logs: list[dict]) -> int` — повертає годину (0–23) з найбільшою кількістю ERROR
+- `parse_log_line(line: str) -> LogEntry` — парсить один рядок логу, повертає `LogEntry`
+- `count_by_level(logs: list[LogEntry]) -> dict` — рахує кількість логів кожного рівня
+- `most_error_hour(logs: list[LogEntry]) -> int` — повертає годину (0–23) з найбільшою кількістю ERROR
 - `generate_report(filepath: str) -> str` — читає файл, повертає текстовий звіт
 
 ---
@@ -65,7 +67,7 @@
 ## Запуск тестів локально
 
 ```bash
-pip install pytest
+pip install -e .
 pytest -v
 ```
 
