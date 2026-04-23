@@ -6,7 +6,7 @@
 
 Реалізуй функції нижче. Не змінюй їх сигнатури.
 """
-
+import json
 from pathlib import Path
 from pydantic import BaseModel
 
@@ -58,3 +58,4 @@ def generate_report(filepath: str) -> str:
     Формат довільний, головне — інформація присутня.
     """
     ...
+
